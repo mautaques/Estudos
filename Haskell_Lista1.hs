@@ -19,7 +19,6 @@ primo n = if n<1 then False else
           if mod n 2 == 0 || mod n 3 == 0 || mod n 5 == 0 then False        
           else True
 		  
-seriePI :: (RealFrac a) => a -> a
 seriePI 0 = 0
 seriePI n = if mod (round n) 2 == 0 then (-4) / (2 * n - 1) + seriePI (n - 1)
             else 4 / (2 * n - 1) + seriePI (n - 1)
