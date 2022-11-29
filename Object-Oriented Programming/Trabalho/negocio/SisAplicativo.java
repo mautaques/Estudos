@@ -6,7 +6,6 @@ import dados.Playlist;
 import dados.Usuario;
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
