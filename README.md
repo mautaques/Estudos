@@ -1,2 +1,2 @@
-# Studies
-UDESC CS progamming subjects
+# Estudos
+Matérias de Ciẽncia da Computação
