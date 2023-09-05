@@ -1,2 +1,2 @@
 # Estudos
-Matérias de Ciência da Computação
+Matérias de Ciẽncia da Computação
