@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Musica {
-1 minute ago
+
     private String nome;
 
     private List<Artista> artistas = new ArrayList<>();
@@ -13,7 +13,7 @@ public class Musica {
 
     public String getNome() {
         return nome;
-    }1 minute ago
+    }
 
     public void setNome(String nome) {
         this.nome = nome;
