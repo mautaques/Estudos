@@ -1,3 +1,5 @@
+-- Lista 1 Mauricio Martins Taques Filho
+
 ehTriangulo a b c = if a < b + c && b < a + c && c < b + a then True else False
 
 tipoTriangulo a b c = if a==b && b==c && c==a then "equilatero" else
