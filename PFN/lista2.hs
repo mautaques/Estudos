@@ -1,4 +1,4 @@
--- Lista 2 Mauricio Martins
+-- Lista 2 Mauricio Martins Taques Filho
 
 pertence n [] = False
 pertence n (x:xs) = if n == x then True else pertence n xs
