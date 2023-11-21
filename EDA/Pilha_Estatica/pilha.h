@@ -9,15 +9,6 @@ typedef struct {
     int* vetor;
 } Pilha;
 
-Pilha* criar(int tamanho) {
-    Pilha *pilha = malloc(sizeof(Pilha));
-    pilha->tamanho = tamanho;
-    pilha->topo = 0;
-    pilha->vetor = malloc(sizeof(int) * tamanho);
-
-    return pilha;
-}
-
 int cheia(Pilha* pilha) {
     return pilha->topo == pilha->tamanho;
 }
