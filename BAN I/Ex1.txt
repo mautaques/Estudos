@@ -1,15 +1,35 @@
+-- 1)
 -- σdoenca = 'sarampo' (Pacientes)
 
+-- 2)
 -- σespecialidade = 'ortopedia' ∧ idade > 55 (Medicos)
 
+-- 3)
 -- σcodm != 46 ∧ codm != 79 (Consultas)
 
+-- 4)
 -- σandar = 4 ∧ (capacidade = 50 ∨ nroa > 10) (Ambulatorios)
 
+-- 5)
 -- πnome, especialidade (Medicos)
 
+-- 6)
 -- πnroa (σandar = 3 (Ambulatorios))
 
+-- 7)
 -- πcodm, data (σcodp = 122 ∨ codp = 725 (Consultas))
 
+-- 8)
 -- πnroa (σandar != 2 ∧ andar != 4 ∧ capacidade > 5 (Ambulatorios))
+
+-- 9)
+-- πnome, data (σMedicos.codm = Consultas.codm (Medicos ⨯ Consultas))
+
+-- 10)
+-- πAmbulatorios.nroa, capacidade, nome (σandar = 2 ∧ especialidade = 'ortopedia' (Ambulatorios ⨯ Medicos))
+
+-- 11)
+-- πMedicos.nome, Pacientes.nome, data(σhora >= '7:00:00' ∧ hora <= '12:00:00' ∧ data = date('2006-09-06') ∧ Medicos.codm = Consultas.codm ∧ Pacientes.codp = Consultas.codp (Medicos ⨯ Consultas ⨯ Pacientes))
+
+-- 12)
+-- πFuncionarios.nome,salario (σFuncionarios.cidade = 'Florianopolis' ∨ Funcionarios.cidade = 'Palhoca' ∧ Funcionarios.cpf = Pacientes.cpf ∧ Pacientes.codp = Consultas.codp ∧ Consultas.codm = Medicos.codm ∧ especialidade = 'psiquiatria' (Funcionarios ⨯ Pacientes ⨯ Consultas ⨯ Medicos))
