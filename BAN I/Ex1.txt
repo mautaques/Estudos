@@ -1,0 +1,15 @@
+-- σdoenca = 'sarampo' (Pacientes)
+
+-- σespecialidade = 'ortopedia' ∧ idade > 55 (Medicos)
+
+-- σcodm != 46 ∧ codm != 79 (Consultas)
+
+-- σandar = 4 ∧ (capacidade = 50 ∨ nroa > 10) (Ambulatorios)
+
+-- πnome, especialidade (Medicos)
+
+-- πnroa (σandar = 3 (Ambulatorios))
+
+-- πcodm, data (σcodp = 122 ∨ codp = 725 (Consultas))
+
+-- πnroa (σandar != 2 ∧ andar != 4 ∧ capacidade > 5 (Ambulatorios))
