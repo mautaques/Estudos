@@ -1,0 +1,27 @@
+-- 1)
+-- nπAmbulatorios.nroa,capacidade,nome (σandar = 5 (Ambulatorios ⨝ Ambulatorios.nroa = Medicos.nroa Medicos))
+
+-- 2)
+-- πFuncionarios.nome (σ(funcionarios.cidade = 'Florianopolis' ∨ funcionarios.cidade = 'Palhoca') ∧ data = date('2006-10-20') ((Funcionarios ⨝ Funcionarios.cpf = Pacientes.cpf Pacientes) ⨝ Pacientes.codp = Consultas.codp Consultas))
+
+-- 3)
+-- πnroa,andar (Ambulatorios) - πAmbulatorios.roa,andar (Ambulatorios ⨝ Medicos)
+
+-- 3) Alternativa
+-- πAmbulatorio.nroa,andar (σnome = null (Ambulatorios ⟕ Medicos))
+
+-- 4)
+-- πA2.nroa (ρA1 (σnroa = 1 (Ambulatorios)) ⨝ A1.anda = A2.andar ∧ A2.capacidade > A1.capacidade ρA2(Ambulatorios)) 
+
+-- 5)
+-- (Medicos ⟕ Consultas)
+-- ou 
+-- (Medicos ⟕ Medicos.codm = Consultas.codm Consultas)
+-- ou 
+-- (Consultas ⟖ Medicos)
+-- ou 
+-- (Conusltas ⟖ Consultas.codm = Medicos.codm Medicos)
+
+-- 7)
+-- πMedicos.cpf,medicos.nome,Pacientes.cpf,Pacientes.nome ((Medicos ⟕Medicos.codm = Consultas.codm Consultas) ⟗Consultas.codp = Pacientes.codp Pacientes)
+                  
