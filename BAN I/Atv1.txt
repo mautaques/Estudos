@@ -1,0 +1,20 @@
+-- 1)
+-- πid,titulo(σduracao > 90 ∧ duracao < 120(σtipo = 'coletania' ∨ tipo = 'trilha sonora'(cds)))
+
+-- 2)
+-- πnome (σcds.interprete = interpretes.id ∧ nacionalidade = 'brasileiro' ∧ ano = 2013(cds ⨯ interpretes))
+
+-- Versão melhorada
+-- πnome (σano = 2013 ((σtipo = 'grupo' ∧ nacionalidade = 'brasiliero' (interpretes))⨝interpretes.id = cds.interprete cds))
+
+-- 3)
+-- πcds.id,titulo,interpretes.nome,interpretes.tipo (σcds.id = interpretes.id ∧ preco > 30(cds ⨯ interpretes)) 
+
+-- Versão melhorada 
+-- πcds.id,titulo,nome,interpretes.tipo (σpreco > 30 (cds) ⟕ interpretes.id = cds.interprete interpretes)
+
+-- 4)
+-- πcodBarras,funcionarios.id,nome ((σ(data = date('2016-06-10') ∨ data = date('2016-06-20')) ∧ formapgto != 'cartao' (vendas)) ⨝ exemplares ⨝ vendas.funcinario = funcionarios.id funcionarios)
+
+-- 5)
+--πcd,exemplar (σstatus = 'ok' (exemplares)) - πcd,exemplar (vendas)
