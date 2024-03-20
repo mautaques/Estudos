@@ -22,6 +22,9 @@
 -- ou 
 -- (Conusltas ⟖ Consultas.codm = Medicos.codm Medicos)
 
+-- 6)
+-- πAmbulatorios.nroa,codm,nome(Ambulatorios ⟕Ambulatorios.nroa = Medicos.nroa Medicos)
+
 -- 7)
 --  πMedicos.cpf,Medicos.nome,Pacientes.cpf,Pacientes.nome ((Medicos ⟕Medicos.codm = Consultas.codm Consultas) ⟗Consultas.codp = Pacientes.codp Pacientes)
                   
