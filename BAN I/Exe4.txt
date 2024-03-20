@@ -8,7 +8,7 @@
 -- πnome,cpf,codm (Consultas ⨝ Pacientes) ÷ πcodm (σespecialidade = 'ortopedia' ∧ andar=1 (Medicos ⨝ Ambulatorios))
 
 -- 4)
--- πandar,capacidade,nroa (Ambulatorios ÷ πnroa (σespecialidade = 'ortopedia' (Medicos))
+-- πandar,capacidade (Ambulatorios ÷ πnroa(σespecialidade = 'ortopedia' (Medicos)))
 
 -- 5)
 -- πFuncionarios.nome,codm (Funcionarios ⨝ Funcionarios.cpf = Pacientes.cpf Pacientes ⨝ Consultas) ÷ πcodm (σespecialidade = 'pediatria' (Medicos))
