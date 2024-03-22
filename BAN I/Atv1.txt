@@ -8,7 +8,7 @@
 -- πnome (σano = 2013 ((σtipo = 'grupo' ∧ nacionalidade = 'brasiliero' (interpretes))⨝interpretes.id = cds.interprete cds))
 
 -- 3)
--- πcds.id,titulo,interpretes.nome,interpretes.tipo (σcds.id = interpretes.id ∧ preco > 30(cds ⨯ interpretes)) 
+-- πcds.id,titulo,nome,interpretes.tipo(σpreco > 30 (cds ⟕cds.interprete = interpretes.id interpretes))
 
 -- Versão melhorada 
 -- πcds.id,titulo,nome,interpretes.tipo (σpreco > 30 (cds) ⟕ interpretes.id = cds.interprete interpretes)
