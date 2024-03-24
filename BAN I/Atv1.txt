@@ -21,3 +21,6 @@
 
 -- 6)
 -- πA1.id,A1.nome,A2.id,A2.nome((ρA1(funcionarios)) ⨝A1.turno = A2.turno ∧ A1.cpf != A2.cpf (ρA2(funcionarios)))
+
+-- 7)
+-- πinterpretes.id,interpretes.nome(σnacionalidade != 'brasileiro' ∧ cds.tipo = 'coletanea' ∧ cds.tipo = 'interprete'(cds ⨝cds.interprete = interpretes.id interpretes))
