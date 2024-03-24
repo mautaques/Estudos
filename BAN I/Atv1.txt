@@ -18,3 +18,6 @@
 
 -- 5)
 --πcd,exemplar (σstatus = 'ok' (exemplares)) - πcd,exemplar (vendas)
+
+-- 6)
+-- πA1.id,A1.nome,A2.id,A2.nome((ρA1(funcionarios)) ⨝A1.turno = A2.turno ∧ A1.cpf != A2.cpf (ρA2(funcionarios)))
