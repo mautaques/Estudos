@@ -26,4 +26,10 @@
 -- πinterpretes.id,interpretes.nome(σnacionalidade != 'brasileiro' (interpretes) ⨝interpretes.id = cds.interprete σcds.tipo = 'coletanea' ∨ cds.tipo = 'interprete'(cds))
 
 -- 8)
+-- πfuncionarios.id,nome,cd (σturno = 'N' (funcionarios) ⨝funcionarios.id = vendas.funcionario vendas) ÷ πcd (ρcd←id cds⨝cds.interprete = interpretes.id σnome = 'Ivete Sangalo' interpretes)
+
+-- 9)
+-- 
+
+-- 10)
 -- 
