@@ -1,1 +1,1 @@
-# Repository dedicated for the study of Computer Science course 
+# Repositório dedicado ao estudo do curso de Ciência da Computação
