@@ -7,10 +7,10 @@
 	.globl main
 
 main:
-	ori $a0, $zero, 8 # Argumento g
-	ori $a1, $zero, 3 # Argumento h
-	ori $a2, $zero, 2 # Argumento i
-	ori $a3, $zero, 7 # Argumento j
+	ori $a0, $zero, 8 # argumento g
+	ori $a1, $zero, 3 # argumento h
+	ori $a2, $zero, 2 # argumento i
+	ori $a3, $zero, 7 # argumento j
 	jal leaf
 	move $a0, $v0
 	li $v0, 1
