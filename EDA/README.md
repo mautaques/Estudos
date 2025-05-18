@@ -1,1 +1,1 @@
-## Exercícios e listas da matéria de Estrutura de Dados
+## Implementação de pilhas dinâmicas e estáticas
