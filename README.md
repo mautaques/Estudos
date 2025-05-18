@@ -1,5 +1,3 @@
-Repo dedicated to some Computer Science subjects that i think are relevant to store
-
 <li>AGT - Algoritmos.</li>
 <li>ANN - Análise Numérica.</li>
 <li>AOC - Arquitetura e Organização de Computadores.</li>
