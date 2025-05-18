@@ -1,4 +1,4 @@
-** Repo dedicated to some Computer Science subjects that i think are relevant to store
+Repo dedicated to some Computer Science subjects that i think are relevant to store
 
 <li>ANN.</li>
 <li>Outro ponto informativo.</li>
