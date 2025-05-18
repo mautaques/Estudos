@@ -1,13 +1,12 @@
 Repo dedicated to some Computer Science subjects that i think are relevant to store
 
-<li>ANN.</li>
-<li>Outro ponto informativo.</li>
-<li>Mais um detalhe relevante.</li>
-<li>Este é o primeiro ponto do texto.</li>
-<li>Outro ponto informativo.</li>
-<li>Mais um detalhe relevante.</li>
-<li>Este é o primeiro ponto do texto.</li>
-<li>Outro ponto informativo.</li>
-<li>Mais um detalhe relevante.</li>
+<li>AGT - Algoritmos.</li>
+<li>ANN - Análise Numérica.</li>
+<li>AOC - Arquitetura e Organização de Computadores.</li>
+<li>EDA - Estruta de Dados.</li>
+<li>EDA2 - Estrutura de Dados II.</li>
+<li>LPG - Linguagem de Programação.</li>
+<li>PFN - Programação Funcional.</li>
+<li>POO - Programação Orientada a Objetos.</li>
 
 
