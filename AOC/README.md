@@ -1,1 +1,1 @@
-* Código de funções em Assembly MIPS
+# Código de funções em Assembly MIPS
