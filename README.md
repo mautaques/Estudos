@@ -1,4 +1,4 @@
-### Majoritariamente listas e exercícios
+### Repositóro composto majoritariamente de listas e exercícios
 
 <li>AGT - Algoritmos.</li>
 <li>ANN - Análise Numérica.</li>
