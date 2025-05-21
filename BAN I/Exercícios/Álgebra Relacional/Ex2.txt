@@ -1,0 +1,21 @@
+-- 1)
+-- πnome,cpf (Medicos) ∪ πnome,cpf (Pacientes)
+
+-- 2)
+-- πnome,cpf,idade (σcidade = 'Florianopolis' (Medicos))
+-- ∪
+-- πnome,cpf,idade (σcidade = 'Florianopolis' (Pacientes))
+-- ∪
+-- πnome,cpf,idade (σcidade = 'Florianopolis' (Funcionarios))
+
+-- 3)
+-- πnome,cpf (σsalario<1220 (Funcionarios)) - πnome,cpf (Pacientes)
+
+-- 4)
+-- πnome,cpf (σnroa != 1 ∧ nroa != 2 ∧ especialidade = 'pediatria' (Medicos)) ∩ πnome,cpf (σdoenca = 'gastrite' (Pacientes))
+
+-- 5)
+-- πPacientes.nome,Pacientes.cpf (σPacientes.codp = Consultas.codp (Pacientes ⨯ Consultas))
+-- -
+-- πPacientes.nome,Pacientes.cpf (σPacientes.codp = Consultas.codp ∧ Medicos.codm = Consultas.codm ∧ Medicos.cidade != 'Florianopolis' (Pacientes ⨯ Consultas ⨯ Medicos))
+
